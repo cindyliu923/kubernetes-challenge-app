@@ -11,11 +11,17 @@ This repo is for [DigitalOcean Kubernetes Challenge](https://www.digitalocean.co
 ## Step 1
 
 Create [DigitalOcean VPC network](https://cloud.digitalocean.com/networking/vpc)
+![](https://i.imgur.com/bfBZhc0.png)
+![](https://i.imgur.com/UKBPGXS.png)
 
 ## Step 2
 
 * Create [DigitalOcean Kubernetes Clusters](https://cloud.digitalocean.com/kubernetes/clusters)
+ ![](https://i.imgur.com/IGE5kjq.png)
+ ![](https://i.imgur.com/lzxXeo9.png)
+ ![](https://i.imgur.com/1ljuE3B.png)
 * Click Actions Download Config
+ ![](https://i.imgur.com/ggRisvU.png)
 * `export KUBECONFIG="./kube-challenge-kubeconfig.yaml"`
 * `kubectl config get-contexts` or `kubectl get node` check you can connect to DigitalOcean Kubernetes with config setting
 * Open [LENS APP](https://k8slens.dev/)
@@ -70,4 +76,6 @@ Create [DigitalOcean VPC network](https://cloud.digitalocean.com/networking/vpc)
   
 ## Result
 
-https://kube.cindyliu923.com/notes
+![](https://i.imgur.com/KTD6Fic.png)
+
+https://kube.cindyliu923.com/notes (your_domain/notes)
